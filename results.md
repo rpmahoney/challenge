@@ -22,4 +22,5 @@ Once all tickets are sold, the program will select three winners, one for each t
 
 The Reporting.java class holds the method to create the summary report. It's found in the LotteryMachine.service package.
 
+There is also a source folder called "test" which holds the JUnit tests I've written to test my methods
 I've used Javadocs inside the code to further explain each method.
