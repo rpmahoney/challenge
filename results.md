@@ -1,10 +1,10 @@
 To run the Program: 
-Double click LotteryMachine.jar
+Save and double click LotteryMachine.jar
 
 Results: 
 The results of the program will be written to a .txt file called lottery-report.txt. The file will be saved in the same place where the jar is located. This text file will be overwritten with new results every time the jar is executed.
 
-I've included a zip file of the source code so you can see the code behind the program, called LotteryMachine.zip
+I've included a zip file of the source code so you can see the code behind the program, called LotteryMachine.zip. If you prefer, you can also run the test from the IDE of your choice by unzipping the contents and running the LotterySimulation.java class (found here: src/LotteryMachine/runner)
 
 My Approach:
 I found that there were two entities/objects that needed to be created for this challenge: tickets and customers. I started by creating two POJOs to represent each of them and give them the properties they each needed. Customers would have an ID and a number of tickets they would want to purchase. Tickets would have an ID, type (pick 3, 4, or 5), number, and the customer ID that owns it. These are found in the LotteryMachine.POJO package.
